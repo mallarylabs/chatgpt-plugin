@@ -1,0 +1,47 @@
+{
+  "name": "mallary",
+  "version": "0.1.0",
+  "description": "Plan, publish, reply, and review social media through Mallary in ChatGPT and Codex.",
+  "author": {
+    "name": "Mallary",
+    "email": "support@mallary.ai",
+    "url": "https://mallary.ai"
+  },
+  "homepage": "https://docs.mallary.ai/home/chatgpt",
+  "repository": "https://github.com/mallarylabs/chatgpt-plugin",
+  "license": "MIT",
+  "keywords": [
+    "mallary",
+    "social-media",
+    "publishing",
+    "comments",
+    "analytics",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Mallary",
+    "shortDescription": "Publish and manage social media with Mallary.",
+    "longDescription": "Connect ChatGPT and Codex to your Mallary account. Review profiles and posts, prepare platform-specific content, publish after approval, reply to comments, and understand performance.",
+    "developerName": "Mallary",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://mallary.ai",
+    "privacyPolicyURL": "https://mallary.ai/privacy",
+    "termsOfServiceURL": "https://mallary.ai/tos",
+    "defaultPrompt": [
+      "Show my latest Mallary posts and their status.",
+      "List my Mallary profiles and connected platforms.",
+      "Review analytics for my latest Mallary post."
+    ],
+    "brandColor": "#FE9A00",
+    "composerIcon": "./assets/mallary.png",
+    "logo": "./assets/mallary.png",
+    "logoDark": "./assets/mallary.png",
+    "screenshots": []
+  },
+  "apps": "./.app.json"
+}

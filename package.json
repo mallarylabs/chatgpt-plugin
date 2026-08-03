@@ -1,0 +1,15 @@
+{
+  "name": "@mallary/chatgpt-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Mallary plugin package for ChatGPT and Codex.",
+  "scripts": {
+    "configure:app": "node scripts/configure-app.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
