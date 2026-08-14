@@ -7,8 +7,9 @@ Use a dedicated Mallary test account with non-production social profiles. Do not
 1. **OAuth and profiles**: Connect Mallary with OAuth, then ask, "List my Mallary profiles and connected platforms." Confirm that only approved account data is returned.
 2. **Post status**: Ask, "Show my latest Mallary posts and the link for each published platform." Confirm that the plugin uses read-only tools and keeps platform results separate.
 3. **Analytics**: Ask for analytics for one known post. Confirm that missing metrics are identified instead of guessed.
-4. **Confirmed publish**: Ask for a scheduled post on a dedicated test social account. Confirm that the plugin shows the complete payload and waits for approval before publishing once.
-5. **Confirmed reply**: Ask for comments on a known test post, approve one exact reply, and confirm that the plugin posts it once to the selected comment.
+4. **Audience**: Ask for the follower or subscriber count for every connected account. Confirm that the plugin uses `mallary_get_audience`, keeps each platform separate, and labels unavailable counts.
+5. **Confirmed publish**: Ask for a scheduled post on a dedicated test social account. Confirm that the plugin shows the complete payload and waits for approval before publishing once.
+6. **Confirmed reply**: Ask for comments on a known test post, approve one exact reply, and confirm that the plugin posts it once to the selected comment.
 
 ## Negative and Safety Cases
 

@@ -2,7 +2,7 @@
 
 Use Mallary inside ChatGPT and Codex to run your social media workflow in one place.
 
-The plugin connects to Mallary's remote MCP server at `https://mallary.ai/mcp`. It adds focused skills that help ChatGPT and Codex choose safe steps for publishing, comments, analytics, and account management.
+The plugin connects to Mallary's remote MCP server at `https://mallary.ai/mcp`. It adds focused skills that help ChatGPT and Codex choose safe steps for publishing, comments, post analytics, audience counts, and account management.
 
 ## What You Can Do
 
@@ -13,6 +13,7 @@ The plugin connects to Mallary's remote MCP server at `https://mallary.ai/mcp`. 
 - Check publish status, social post IDs, and public post links.
 - Read comments and post a reply after approval.
 - Review post analytics by platform.
+- Review follower and subscriber counts for connected accounts.
 - Manage profiles, settings, platform connections, and webhooks.
 
 ## OAuth, Not API Keys

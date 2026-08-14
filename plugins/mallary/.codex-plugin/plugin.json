@@ -1,7 +1,7 @@
 {
   "name": "mallary",
-  "version": "0.1.0",
-  "description": "Plan, publish, reply, and review social media through Mallary in ChatGPT and Codex.",
+  "version": "0.1.1",
+  "description": "Plan, publish, reply, and review post and audience analytics through Mallary in ChatGPT and Codex.",
   "author": {
     "name": "Mallary",
     "email": "support@mallary.ai",
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "Mallary",
     "shortDescription": "Publish and manage social media with Mallary.",
-    "longDescription": "Connect ChatGPT and Codex to your Mallary account. Review profiles and posts, prepare platform-specific content, publish after approval, reply to comments, and understand performance.",
+    "longDescription": "Connect ChatGPT and Codex to your Mallary account. Review profiles and posts, publish after approval, reply to comments, and understand post results plus follower and subscriber growth.",
     "developerName": "Mallary",
     "category": "Productivity",
     "capabilities": [
@@ -35,7 +35,7 @@
     "defaultPrompt": [
       "Show my latest Mallary posts and their status.",
       "List my Mallary profiles and connected platforms.",
-      "Review analytics for my latest Mallary post."
+      "Review my latest Mallary post analytics or show follower and subscriber counts for my connected accounts."
     ],
     "brandColor": "#FE9A00",
     "composerIcon": "./assets/mallary.png",
