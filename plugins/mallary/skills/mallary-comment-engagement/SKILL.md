@@ -18,13 +18,14 @@ Do not invent a post ID, comment ID, platform, author name, or username. Some pl
 ## Draft and Post a Reply
 
 1. Draft the reply in the voice and tone the user requested.
-2. Show the exact post ID, comment ID, original comment context, and reply text.
-3. State that the reply will be posted publicly to the connected social platform.
-4. Wait for clear user confirmation.
-5. Call `mallary_reply_to_comment` once with the exact returned IDs.
+2. If the user asked only for a draft, return the draft and do not call a write tool.
+3. If the user clearly asked to post an exact reply, verify the post ID and comment ID from Mallary data.
+4. Call `mallary_reply_to_comment` once with the exact IDs and reply text.
 
-Never post a draft automatically. Never silently retry a reply after a timeout or unclear result. Check comments first, then ask the user before another write.
+The reply changes a public external conversation. Never post from a general advice request or an unfinished draft. Never silently retry a reply after a timeout or unclear result. Check comments first, then ask before another write.
 
 ## Privacy
 
 Treat comment text and author details as account data. Show only what the user needs. Never expose OAuth tokens, social account credentials, API keys, provider debug data, or unrelated comments.
+
+Do not send payment data, health records, government IDs, biometric records, credentials, or private customer files in a reply.
